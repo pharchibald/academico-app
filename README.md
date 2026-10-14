@@ -1,50 +1,151 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 🎓 Acadêmico App
 
-## Get started
+Aplicativo mobile desenvolvido com React Native, Expo,
+TypeScript e Expo Router, como parte de um desafio
+acadêmico de desenvolvimento de aplicações móveis.
 
-1. Install dependencies
+## 📱 Sobre o projeto
 
-   ```bash
-   npm install
-   ```
+O Acadêmico App é uma aplicação que simula um sistema
+de acesso a um ambiente acadêmico.
 
-2. Start the app
+O projeto possui uma tela de Login e um Dashboard,
+permitindo a navegação entre as telas por meio
+do Expo Router.
 
-   ```bash
-   npx expo start
-   ```
+A interface foi desenvolvida com foco em usabilidade,
+organização visual, responsividade e experiência
+do usuário (UX/UI).
 
-In the output, you'll find options to open the app in a
+## 🚀 Funcionalidades
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Tela de Login moderna e responsiva
+- Campos de usuário e senha
+- Opção de mostrar e ocultar a senha
+- Validação de campos obrigatórios
+- Autenticação simulada
+- Mensagens de erro para credenciais inválidas
+- Navegação entre Login e Dashboard
+- Dashboard com saudação personalizada
+- Cards informativos de Estudos e Agenda
+- Botão para sair e retornar ao Login
+- Interface adaptável para dispositivos móveis e web
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Tecnologias utilizadas
 
-## Get a fresh project
+- React Native
+- Expo
+- Expo Router
+- TypeScript
+- JavaScript
+- React Hooks (useState)
+- Ionicons
+- Git e GitHub
 
-When you're ready, run:
+## 📂 Estrutura do projeto
 
-```bash
-npm run reset-project
-```
+academico-app/
+  app/
+    _layout.tsx
+    index.tsx
+    dashboard.tsx
+  assets/
+  package.json
+  README.md
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Organização
 
-## Learn more
+- _layout.tsx: configuração da navegação
+- index.tsx: tela de Login
+- dashboard.tsx: tela principal da aplicação
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🔐 Credenciais de teste
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Usuário: aluno
 
-## Join the community
+Senha: 123456
 
-Join our community of developers creating universal apps.
+A autenticação é simulada e utilizada apenas
+para fins educacionais.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 💻 Como executar o projeto
+
+### Pré-requisitos
+
+- Node.js instalado
+- NPM
+- Visual Studio Code
+- Expo Go (opcional para testes no celular)
+
+### 1. Clonar o repositório
+
+git clone URL_DO_REPOSITORIO
+
+### 2. Acessar a pasta
+
+cd academico-app
+
+### 3. Instalar as dependências
+
+npm install
+
+### 4. Iniciar o aplicativo
+
+npx expo start
+
+Após iniciar, utilize o Expo Go para acessar
+o aplicativo pelo celular.
+
+Também é possível executar no navegador,
+caso as dependências web estejam instaladas.
+
+## 🎨 Interface e experiência do usuário
+
+A interface utiliza uma identidade visual baseada
+em azul-marinho, azul e tons neutros.
+
+Foram aplicados princípios de UX/UI, como:
+
+- Hierarquia visual
+- Consistência de cores
+- Legibilidade
+- Organização dos elementos
+- Feedback de erros
+- Responsividade
+- Navegação intuitiva
+
+## 📚 Objetivo acadêmico
+
+Este projeto tem como objetivo desenvolver
+habilidades relacionadas a:
+
+- Criação de projetos Expo
+- Componentização com React Native
+- Gerenciamento de estados
+- Formulários e TextInput
+- Navegação com Expo Router
+- Estilização com StyleSheet
+- Desenvolvimento de interfaces responsivas
+- Versionamento com Git e GitHub
+
+## ⚠️ Observações
+
+O aplicativo utiliza autenticação simulada,
+sem integração com banco de dados ou servidor.
+
+Os cards de Estudos e Agenda são demonstrativos
+e não possuem funcionalidades próprias.
+
+## 👨‍💻 Desenvolvedor
+
+Pedro Henrique Alves Albuquerque
+
+Estudante de Análise e Desenvolvimento de Sistemas
+
+Faculdade Senac Ceará
+
+## 📄 Licença
+
+Projeto desenvolvido para fins acadêmicos
+e educacionais.
